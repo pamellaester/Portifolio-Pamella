@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Portifolio-Pamella/static/css/main.acd79c27.css",
+    "main.js": "/Portifolio-Pamella/static/js/main.2b0236f2.js",
+    "static/js/787.14b632af.chunk.js": "/Portifolio-Pamella/static/js/787.14b632af.chunk.js",
+    "static/media/2.png": "/Portifolio-Pamella/static/media/2.e4316826c03268483ffd.png",
+    "static/media/flamingo.png": "/Portifolio-Pamella/static/media/flamingo.4ffd5b4f89e1659de904.png",
+    "static/media/profile.jpeg": "/Portifolio-Pamella/static/media/profile.3ba00ec42e48d2d327d2.jpeg",
+    "static/media/nexus.png": "/Portifolio-Pamella/static/media/nexus.e748b84f916a812953f5.png",
+    "static/media/resume.pdf": "/Portifolio-Pamella/static/media/resume.342ba38da61113ae2f88.pdf",
+    "static/media/1.png": "/Portifolio-Pamella/static/media/1.9c8314267de3b02da431.png",
+    "index.html": "/Portifolio-Pamella/index.html",
+    "main.acd79c27.css.map": "/Portifolio-Pamella/static/css/main.acd79c27.css.map",
+    "main.2b0236f2.js.map": "/Portifolio-Pamella/static/js/main.2b0236f2.js.map",
+    "787.14b632af.chunk.js.map": "/Portifolio-Pamella/static/js/787.14b632af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acd79c27.css",
+    "static/js/main.2b0236f2.js"
+  ]
+}

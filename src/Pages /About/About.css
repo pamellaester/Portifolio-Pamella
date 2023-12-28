@@ -1,0 +1,96 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #f76d64;
+    height: 600px;
+    margin-top: 65px;
+}
+  /* Profile header section */
+  .profile-header {
+    padding: 20px;
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #f76d64;
+  }
+  
+  /* Profile picture */
+  .profile img {
+    margin-bottom: 15px;
+    width: 400px; /* Adjust the size of the profile picture */
+    height: auto;
+    /* margin-right: 20px; */
+  }
+  
+  /* Profile info */
+  .profile h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .profile p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Profile content section */
+  .profile-content {
+    width: 80%; /* Adjust width as needed */
+  }
+
+  
+.info-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    color: #f76d64;
+}
+
+.skills-icons {
+    margin-left: -20px;
+    color: #f76d64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust spacing as needed */
+  }
+  
+  /* Individual skill icon */
+  .skills-icons svg {
+    font-size: 40px;
+    margin: 0 10px; /* Adjust spacing between icons */
+  }
+
+  .hover-text {
+    display: none;
+    position: absolute;
+    top: 50%; /* Adjust positioning as needed */
+    left: 50%; /* Adjust positioning as needed */
+    transform: translate(-50%, -50%);
+    color: #f76d64;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+button {
+    background: none;
+    border: none;
+    color:#ff7b3e;
+}
+
+  .reload-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font-size: 24px; /* Adjust icon size */
+    color: #ff7b3e; /* Change color as needed */
+  }

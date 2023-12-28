@@ -1,0 +1,99 @@
+/* Estilos CSS */
+
+.fullHeight {
+  margin-top: 69px;
+  height: 91vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.block {
+    position: relative;
+  flex-grow: 1;
+  margin: 1px;
+  transition: background-color 0.3s ease, opacity 0.3s ease; /* Add transition effects */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Individual blocks */
+.name {
+  flex-basis: 25%;
+  background-image: url('../../assets/1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.work {
+  flex-basis: 70%;
+  background-color: #ff7b3e9b;
+  opacity: 20%
+}
+
+.contact {
+  flex-basis: 25%;
+  background-image: url('../../assets/2.png');
+  background-size: cover;
+  background-position: center;
+  /* opacity: 20% */
+}
+
+.about {
+  flex-basis: 70%;
+  background-color: #f76e646c;
+    background-size: auto;
+  background-position: center;
+  opacity: 20%;
+}
+
+/* Hover effects */
+.name:hover,
+.work:hover,
+.contact:hover,
+.about:hover {
+  /* background-color: rgba(0, 0, 0, 0.7); Darken the background color on hover */
+  opacity: 0.8; 
+  border: 3px solid #000; /* Add a border on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.floating-element {
+    animation: floatAnimation 3s ease-in-out infinite;
+  }
+  
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(15px);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(15px);
+    }
+  }
+
+  .hover-text {
+    display: none;
+    position: absolute;
+    top: 50%; /* Adjust positioning as needed */
+    left: 50%; /* Adjust positioning as needed */
+    transform: translate(-50%, -50%);
+    color: #f76d64;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .block:hover .hover-text {
+    display: block;
+  }
+
+  .color {
+    color: #ff7b3e;
+  }
